@@ -1,0 +1,283 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	z-index: 900;
+	position: fixed;
+	background-color: white;
+	height: 70px;
+	width: 100%;
+}
+header img {
+	float: left;
+	margin-left: 20%;
+}
+nav ul li {
+	list-style-type: none;
+}
+header nav ul{
+	float: right;
+	width: 700px;
+}
+header nav ul li a{
+	margin: 20px 2%;
+	height: 50px;
+	float: left;
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+}
+li.current a{
+	color: red;
+	border-bottom: 2px solid red;
+}
+.aboveFold {
+	z-index: 0;
+	height: 700px;
+	width: 100%;
+	background: url('../img/background.jpg') center center no-repeat;
+	background-size: cover;
+}
+.aboveFold span {
+	display: inline-block;
+	margin: 50px 40px 0 0;
+	color: black;
+	font-size: 100px;
+}
+.aboveFold span:first-child {
+	margin-left: 45%;
+}
+span:hover {
+	cursor: crosshair;
+	color: red;
+}
+.aboveFold li {
+	margin-top: 60px;
+	width: 100%;
+	text-align: center;
+	list-style-type: none;
+	display: none;
+}
+.aboveFold .active {
+	display: inline-block;
+	color: white;
+}
+.aboveFold h1 {
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 10px;
+	font-family: Teko, sans-serif;
+	font-weight: 300;
+	max-width: 1000px;
+	font-size: 105px;
+	margin: 0 auto;
+}
+.aboveFold p {
+	margin: 50px auto;
+	width: 40%;
+	font-family: 'Titillium Web', sans-serif;
+	color: #afadb0;
+	line-height: 20px;
+	margin-bottom: 90px;
+}
+.aboveFold a {
+	padding: 10px 35px;
+	border: none;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	font-family: Teko, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.aboveFold a:hover {
+	background-color: red;
+}
+.progress {
+	margin-top: -50px;
+}
+.progress li{
+	float: left;
+	margin-right: 4%;
+	height: 15px;
+	width: 50px;
+	background-color: pink;
+}
+.progress li:hover {
+	background-color: red;
+	cursor: crosshair;
+}
+.progress li:first-child {
+	margin-left: 40%;
+}
+.progress .active {
+	background-color: red;
+}
+.projects {
+	text-align: center;
+}
+figure:hover a{
+	display: none;
+}
+figure:hover figcaption{
+	display: inline-block;
+}
+.projects article {
+	display: inline-block;
+	width: 49%;
+	float: left;
+	margin: 0 .3%;
+}
+.projects h2 {
+	margin: 60px 0 30px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Teko, sans-serif;
+	font-size: 40px;
+}
+.projects img{
+	display: inline-block;
+	width: 100%;
+	height: 450px;
+}
+.projects figcaption {
+	display: none;
+	position: relative;
+	height: 450px;
+	margin-bottom: 3px;
+	width: 100%;
+	letter-spacing: 2px;
+	line-height: 30px;
+	color: white;
+	border: 10px solid black;
+	background-color: #f63c3c;
+}
+figcaption h4 {
+	margin-top: 30%;
+	font-family: Teko, sans-serif;
+	font-weight: 300;
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+figcaption time {
+	display: inline-block;
+	width: 100%;
+}
+.projects figcaption p {
+	font-family: Teko, sans-serif;
+	font-weight: 300;
+	color: white;
+}
+.projects h3 {
+	font-family: Teko, sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+.projects p {
+	margin: 0 auto 40px auto;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #b0b0b0;
+	width: 65%;
+}
+.projects a.link {
+	display: inline-block;
+	margin-bottom: 50px;
+	text-decoration: none;
+	color: red;
+	text-transform: uppercase;
+	font-family: Teko, sans-serif;
+	font-size: 20px;
+	border-bottom: 2px solid red;
+}
+.showcase {
+	width: 100%;
+	height: 225px;
+	background-color: #f63c3c;
+	text-align: center;
+}
+.showcase h2 {
+	padding-top: 50px;
+	margin-bottom: 12px;
+	text-transform: uppercase;
+	font-family: Teko, sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 40px;
+}
+.showcase p {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #f98585;
+	font-size: 16px;
+	margin-bottom: 36px;
+}
+.showcase a {
+	padding: 10px 35px;
+	border: none;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	font-family: Teko, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.showcase a:hover {
+	background-color: black;
+	color: red;
+}
+aside {
+	margin: 30px 10% 30px 20%;
+	background-color: #fafafa;
+}
+aside h2 {
+	text-transform: uppercase;
+	font-family: Teko, sans-serif;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+aside p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	color: #767676;
+	margin-bottom: 60px;
+}
+aside li {
+	float: left;
+	text-align: center;
+	font-family: Teko, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: white;
+	width: 23%;
+	height: 170px;
+	background-color: black;
+	margin: 0 15px 60px 0;
+}
+aside li:hover {
+	background-color: red;
+}
+aside li i {
+	margin-top: 55px;
+	display: block;
+	width: 100%;
+}
+footer {
+	clear: both;
+	background-color: white;
+	margin-left: 20%;
+	height: 45px;
+	font-size: 13px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+}
+
+
+
